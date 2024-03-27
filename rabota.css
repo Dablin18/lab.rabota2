@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EEF0F1;
+    font-family: Arial, sans-serif;
+}
+
+header,
+footer {
+    background-color: #6474FF;
+    min-height: 110px;
+    text-align: right;
+}
+
+.btn {
+    margin-right: 30px;
+    margin-top: 10px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 900;
+    background-color: #FFC000;
+    border-radius: 10px;
+    padding: 5px 15px;
+    font-size: 1.5em;
+}
+
+.s1 {
+    height: 200px;
+    width: 550px;
+    background-color: #fff;
+    border: 1px solid white;
+    margin: 0 auto;
+    margin-top: -30px;
+    border-radius: 10px;
+    position: relative;
+}
+
+#block {
+    background: url('https://avatars.githubusercontent.com/u/35368892?v=4') center/cover no-repeat white;
+    height: 70px;
+    width: 70px;
+    border: 4px solid #6474FF;
+    border-radius: 50%;
+    position: absolute;
+    left: 720px;
+    top: 95px;
+    z-index: 1;
+}
+
+.text-container {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.text-container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text-container p {
+    font-size: 14px;
+}
+
+.s2 {  									
+    width: 170px;
+    height: 250px;
+    background-color: #fff;
+    border: 2px solid white;
+    display: inline-block;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding-top: 20px; /* Добавляем отступ сверху */ 
+    margin-left: 20px; 
+    margin-right: 0px; 
+    vertical-align: top;
+
+}
+
+div {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #6474FF;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px; 
+}
+
+li.social-link a {
+    margin-bottom: 100px;
+    text-decoration: none; 
+    
+    
+}
+
+li a {
+    color: #fff;
+    text-decoration: underline; 
+}
+.s4{
+    text-decoration: none;
+}
+
+
+
+
+
+
